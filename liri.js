@@ -67,7 +67,7 @@ function mTweets() {
 
 }
 
-//Spotify track information to be displayed through the function myPlaylist
+//Spotify track information to be displayed through the function myPlaylist.
 
 function myPlayList(searchTitle) {
     if (searchTitle == undefined) {
