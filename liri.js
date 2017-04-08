@@ -76,7 +76,7 @@ function myPlayList(searchTitle) {
 
     spotify.search({ type: 'track', query: searchTitle }, function(err, data) {
         if (err) {
-            console.log('Error occurred: ' + err);
+            console.log("Error occurred: " + err);
             return;
         }
 
